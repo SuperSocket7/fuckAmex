@@ -24,7 +24,7 @@ while True:
         break
     else:
         # 分解
-        match = re.findall(r'@[a-zA-Z0-9.-_]+', user)
+        match = re.findall(r'@[a-zA-Z0-9._-]+', user)
         if len(match) == 1:
             username = match[0][1:]
             host = None
