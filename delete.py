@@ -2,8 +2,8 @@ import re
 import sys
 import requests
 
-instance = "ussr.rumiserver.com"
-token = "UNfPvFLq6QNRL3kD"
+instance = "msky.nekokawa.net"
+token = "とーくん"
 usernames = []
 if len(sys.argv) == 2:
     mode = sys.argv[1]
