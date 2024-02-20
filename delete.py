@@ -30,7 +30,7 @@ while True:
         host = match[1][1:]
     else:
         print("間違った値が入力されたかも")
-        exit(1)
+        continue
     # ID取得
     data = {
         "host": host,
