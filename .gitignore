@@ -1,1 +1,7 @@
 /.idea
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.env
+venv
+delete2.py
